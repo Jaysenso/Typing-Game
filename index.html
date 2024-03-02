@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Typing Game" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Typing Game</title>
+  </head>
+
+  <body>
+    <main>
+    <div id = "Title">⌨️ Typing Game</div>
+    <div id = "scoreContainer">
+        <p class = "label currentScore">💯 Score: <span class="score score">0</span></p>
+        <p class = "label highScore">🥇 Highscore: <span class="score highscore">0</span> </p>
+    </div>
+    <div id="gameContainer">
+
+        <button class="btn--start">Start</button>
+        <div id = "gameOverContainer">
+            <p class = "label gameOver">Score : <span class="score gameOverScore">0</span></p>
+            <button class="btn--tryagain">Try Again</button>
+        </div>
+        <div id ="wordContainer"></div>
+        <div id = "displayUserInput"></div> 
+
+    </div>
+  </body>
+
+</main>
+
+<script type = module src="typingGame.js"></script>
+</html>
